@@ -7,14 +7,12 @@ bool QuadradoPerfeito(int x){
     return (s*s == x);
 }
  
-// Returns true if n is a Fibinacci Number, else false
 bool Fibonacci(int n){
 
     return QuadradoPerfeito(5*n*n + 4) ||
            QuadradoPerfeito(5*n*n - 4);
 }
  
-// A utility function to test above functions
 int main(){
   int number;
   cout << "Informe um numero: ";
